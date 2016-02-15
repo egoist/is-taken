@@ -10,3 +10,7 @@ test('not taken', async t => {
 	const taken = await isTaken('tokaaaaaa')
 	t.false(taken)
 })
+
+test('error', async t => {
+	await isTaken().catch(t.pass)
+})
