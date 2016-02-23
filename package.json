@@ -22,6 +22,7 @@
     "npm"
   ],
   "dependencies": {
+    "camel2kebab": "0.0.2",
     "es6-promise": "^3.1.2",
     "isomorphic-fetch": "^2.2.1"
   },
