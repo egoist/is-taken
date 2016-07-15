@@ -22,14 +22,9 @@
     "npm"
   ],
   "dependencies": {
-<<<<<<< ours
     "camel2kebab": "0.0.2",
-    "es6-promise": "^3.1.2",
-    "isomorphic-fetch": "^2.2.1"
-=======
     "isomorphic-fetch": "^2.2.1",
     "query-string": "^4.2.2"
->>>>>>> theirs
   },
   "devDependencies": {
     "ava": "^0.10.0",
