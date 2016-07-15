@@ -16,7 +16,7 @@ module.exports = function (name, opts) {
 	opts.registry = opts.registry || process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org/'
 	opts.timeout = opts.timeout || 5000
 
-	const params = {
+	var params = {
 		version: opts.version
 	}
 
