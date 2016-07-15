@@ -13,7 +13,8 @@ $ npm install --save is-taken
 ```js
 const isTaken = require('is-taken')
 
-isTaken('webpack')
+// version is optional
+isTaken('webpack', {version: 'x.x.x'})
 	.then(taken => {
 		if (taken) {
 			console.log(`${taken.name} is taken 😭`)
