@@ -1,6 +1,6 @@
 {
   "name": "is-taken",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if an NPM package name is taken.",
   "license": "MIT",
   "repository": "egoist/is-taken",
